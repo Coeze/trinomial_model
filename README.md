@@ -19,18 +19,15 @@ The code calculates risk-neutral probabilities for these outcomes and uses them 
 ### Risk-Neutral Probabilities
 
 The code uses closed-form formulas for the risk-neutral probabilities:
-1. **Middle Probability** \( p_m \):
-   \[
-   p_m = \frac{e^{r \Delta t} - d}{u - d}
-   \]
-2. **Up Probability** \( p_u \):
-   \[
-   p_u = \frac{m - d}{u - d} \cdot p_m
-   \]
-3. **Down Probability** \( p_d \):
-   \[
-   p_d = 1 - p_u - p_m
-   \]
+
+1. **Middle Probability** \( p_m \):  
+   `\( p_m = \frac{e^{r \Delta t} - d}{u - d} \)`
+
+2. **Up Probability** \( p_u \):  
+   `\( p_u = \frac{m - d}{u - d} \cdot p_m \)`
+
+3. **Down Probability** \( p_d \):  
+   `\( p_d = 1 - p_u - p_m \)`
 
 Where:
 - \( u \), \( m \), and \( d \) are factors for price movement up, stable, and down.
