@@ -4,7 +4,7 @@ This repository contains Python code to calculate the price of a European option
 
 ## Files
 
-- `trinomial_option_pricing.py`: The main Python file with the function to compute the option price.
+- `main.py`: The main Python file with the function to compute the option price.
 - `README.md`: Documentation explaining the code and usage.
 
 ## Overview
